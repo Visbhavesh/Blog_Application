@@ -1,0 +1,163 @@
+
+.about  .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 15px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .about .container {
+    flex-direction: column;
+  }
+  .about p {
+    padding: 0;
+  }
+  .about .container img {
+    margin-top: 50px;
+  }
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button i {
+  margin-right: 5px;
+}
+.about .heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.about .heading h1 {
+  color: #2d3954;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.about .heading p {
+  color: #72809d;
+}
+
+.about .background {
+  padding: 80px 0;
+  position: relative;
+  background: #f7f9fc;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.mtop {
+  margin-top: 50px;
+}
+
+.shadow {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+.padding {
+  padding: 80px 0;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.about img {
+  width: 100%;
+  /* height: 100%; */
+  cursor: pointer;
+}
+.btn2 {
+  border-radius: 50px;
+  font-size: 20px;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.btn3 {
+  background: #ff6922;
+  border-radius: 50px;
+}
+.btn4 {
+  background-color: #000;
+  color: #fff;
+}
+.btn5 {
+  border-radius: 50px;
+  padding: 20px 40px;
+  color: var(green);
+  font-size: 20px;
+  font-weight: 400;
+  border: 5px solid #27ae601f;
+  background: #fff;
+}
+.back {
+  height: 40vh;
+  position: relative;
+}
+.back img {
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+.back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background: rgba(17, 40, 72, 0.629);
+  z-index: -1;
+}
+.back .container {
+  color: #fff;
+  padding: 120px 0;
+}
+.back h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.mb {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 800px) {
+  .grid4,
+  .grid3,
+  .grid5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about .heading {
+    width: 100%;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .back::after,
+  .back img,
+  .back {
+    height: 30vh;
+  }
+}
+.footerContact{
+  margin-top: 4rem;
+  background-color: #27ae60;
+}
+

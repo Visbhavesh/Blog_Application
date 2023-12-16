@@ -1,0 +1,7 @@
+# dependencies
+node_modules
+package-lock.json
+.env
+client/node_modules
+client/package-lock.json
+
